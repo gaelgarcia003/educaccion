@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+}
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: #0b204d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ main{
+     animation-name: background;
+     animation-duration: 5s;
+     animation-iteration-count: infinite;
+     background-color: #123278;
+     width: 100vw;
+     height: 95vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+.lecture_main{
+    width: 100vw;
+    height: 85vh;
+    background-color: #123278;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+ .text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 4rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .text > a{
+    animation: text;
+    animation-duration: 2s;
+ }
+
+ .button{
+     background-color: #159284;
+     width: 20vw;
+     height: 8vh;
+     color: white;
+     font-family: 'Open Sans', sans-serif;
+     border-radius: 10px;
+     border: 2px solid white;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 70%;
+     text-decoration: none;
+
+ }
+
+ .button > p{
+     margin: 0;
+     padding: 0;
+ }
+ .button:hover{
+     background-color: #145d7e;
+     transform: scale(1.1)
+ }
+
+ footer{
+     width: 100vw;
+     height: 5vh;
+     background-color: #0b204d;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ footer > p{
+     color: rgba(255, 255, 255, 0.445);
+     margin: 0;
+     padding: 0;
+ }
+
+ @keyframes background{
+     0% {
+         background-color:#123278;
+     }
+     50%{
+         background-color: #159284;
+     }
+     100%{
+         background-color: #123278;
+     }
+ }
+
+ @keyframes text{
+     0%{
+         margin-top: 100%;
+     }
+
+     100%{
+         margin-top: 0;
+     }
+ }
+
+ .sections_main{
+    background-color: #123278;
+    width: 100vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.up{
+    display: flex;
+    font-size: 3rem;
+    text-decoration: none;
+}
+ .one{
+     width: 25vw;
+     height: 30vh;
+    border-radius: 50%;
+    margin: 5%;
+    font-size: 3rem;
+    text-decoration: none;
+    position: relative;
+ }
+
+.afrodita{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 6%;
+}
+
+.afrodita:hover{
+    transform: scale(1.1)
+}
+
+.endocles{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 6%;
+}
+
+.endocles:hover{
+    transform: scale(1.1);
+}
+
+.boreas{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 6%; 
+}
+
+.boreas:hover{
+    transform: scale(1.1);
+}
+
+
+ 
+ .two{
+    width: 25vw;
+    height: 30vh;
+    border-radius: 50%;
+   margin: 5%;
+   position: relative;
+}
+.adivino{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 6%;  
+}
+
+.adivino:hover{
+    transform:scale(1.1);
+}
+
+.aguila{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 6%;      
+}
+
+.aguila:hover{
+    transform: scale(1.1);
+}
+
+.asno{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    top: 6%;        
+}
+
+.asno:hover{
+    transform: scale(1.1);
+}
+.bottom{
+    display: flex;
+}
+
+.lecture_header{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.lecture_text{
+    width: 70%;
+    height: 80%;
+}
+
+.text_lecture{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 3rem;
+    text-align: justify;
+}
+
+.moraleja{
+    margin-top: 10%;
+    padding: 2%;
+    background-color: white;
+    color: #123278;
+    font-size: 1.5 rem;
+    text-align: justify;
+}
+
+.atras{
+    display: inline-block;
+    width: 6rem;
+    height: 3rem;
+    background-color: white;
+    position: absolute;
+    left:2%;
+    bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.atras > a{
+    text-decoration: none;
+    color: #123278;
+    font-size: 1.5 rem;
+}
+
+.atras:hover{
+    transform: scale(1.1);
+}
